@@ -61,7 +61,7 @@
           </grid-col>
 
           <grid-col sm="6">
-            <card title="Chart title"></card>
+            <card title="Chart title" collapsed optionCollapse></card>
           </grid-col>
 
           <grid-col sm="6">
