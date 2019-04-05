@@ -13,6 +13,7 @@ import Notifications from './Notifications'
 import * as Page from './Page'
 import Progressbar from './ProgressBar'
 import ProgressCard from './ProgressCard'
+import RLink from './RLink'
 import * as Site from './Site'
 import StampCard from './StampCard'
 import StatsCard from './StatsCard'
@@ -34,6 +35,7 @@ export const components = {
     ...Page,
     Progressbar,
     ProgressCard,
+    RLink,
     ...Site,
     StampCard,
     StatsCard,
