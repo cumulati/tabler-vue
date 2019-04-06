@@ -90,7 +90,6 @@
     <grid-row cards>
       <grid-col xs="12">
         <card>
-          <card-status color="orange"/>
           <t-table responsive hover cards outline vertical-align="center" className="text-nowrap">
             <table-head>
               <table-row>
@@ -151,6 +150,21 @@
               </table-row>
             </table-body>
           </t-table>
+        </card>
+      </grid-col>
+    </grid-row>
+
+    <grid-row>
+      <grid-col sm="2">
+        <card>
+          <card-header title="Card Status"/>
+          <card-status/>
+        </card>
+      </grid-col>
+      <grid-col sm="2">
+        <card>
+          <card-status color="orange" left/>
+          <card-header title="Card Status"/>
         </card>
       </grid-col>
     </grid-row>
