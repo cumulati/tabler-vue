@@ -90,6 +90,7 @@
     <grid-row cards>
       <grid-col xs="12">
         <card>
+          <card-status color="orange"/>
           <t-table responsive hover cards outline vertical-align="center" className="text-nowrap">
             <table-head>
               <table-row>
