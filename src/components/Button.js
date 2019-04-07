@@ -5,7 +5,7 @@ export default {
         outline: {default: false},
         type: {default: 'primary'}
     },
-    template: `<a :class="className"><slot>Button</slot></a>`,
+    template: `<button :class="className"><slot>Button</slot></button>`,
     computed: {
         className () {
             const className = {btn: true}
