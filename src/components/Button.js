@@ -5,7 +5,7 @@ export default {
         outline: {default: false},
         type: {default: 'primary'}
     },
-    template: `<button :class="className"><slot>Button</slot></button>`,
+    template: `<button :class="className" @click="e => $emit('click', e)"><slot>Button</slot></button>`,
     computed: {
         className () {
             const className = {btn: true}
