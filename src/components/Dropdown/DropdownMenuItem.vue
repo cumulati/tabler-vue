@@ -1,11 +1,11 @@
 <template>
-    <a href="#" class="dropdown-item">
+    <component :is="which" :to="routerLink" href="#" class="dropdown-item">
         <slot>
             <span v-if="!!badge" class="float-right"><span :class="`badge badge-${type}`">{{ badge }}</span></span>
             <icon v-if="!!icon" :icon="icon" :prefix="iconPrefix" class="dropdown-icon"/>
             {{ label }}
         </slot>
-    </a>
+    </component>
 </template>
 
 <script>
@@ -19,7 +19,15 @@
             iconPrefix: {default: 'fe'},
             label: {default: 'Dropdown Item'},
             badge: {default: false},
-            type: {default: 'primary'}
+            type: {default: 'primary'},
+
+            routerLink: {default: false}
+        },
+
+        computed: {
+            which () {
+                return !!this.routerLink ? 'router-link' : 'a'
+            }
         }
     }
 </script>
