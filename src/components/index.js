@@ -11,6 +11,7 @@ import * as Nav from './Nav'
 import Notifications from './Notifications'
 import * as Page from './Page'
 import Progressbar from './ProgressBar'
+import ProgressbarHeader from './ProgressBarHeader'
 import ProgressCard from './ProgressCard'
 import * as Site from './Site'
 import StampCard from './StampCard'
@@ -31,6 +32,7 @@ export const components = {
     Notifications,
     ...Page,
     Progressbar,
+    ProgressbarHeader,
     ProgressCard,
     ...Site,
     StampCard,
