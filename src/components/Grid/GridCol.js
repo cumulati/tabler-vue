@@ -11,7 +11,7 @@ export default {
     computed: {
         className() {
             const className = {}
-            className[`col-xs${this.xs ? '-' + this.xs : '' }`] = this.xs !== 0
+            className[`col${this.xs ? '-' + this.xs : '' }`] = this.xs !== 0
             className[`col-sm${this.sm ? '-' + this.sm : '' }`] = this.sm !== 0
             className[`col-md${this.md ? '-' + this.md : '' }`] = this.md !== 0
             className[`col-lg${this.lg ? '-' + this.lg : '' }`] = this.lg !== 0
