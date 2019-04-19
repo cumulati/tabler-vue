@@ -18,6 +18,7 @@ import RLink from './RLink'
 import * as Site from './Site'
 import StampCard from './StampCard'
 import StatsCard from './StatsCard'
+import StatusIcon from './StatusIcon'
 import * as Table from './Table'
 
 export const components = {
@@ -41,5 +42,6 @@ export const components = {
     ...Site,
     StampCard,
     StatsCard,
+    StatusIcon,
     ...Table
 }
