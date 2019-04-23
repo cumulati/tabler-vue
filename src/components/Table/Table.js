@@ -14,7 +14,7 @@ export default {
         /**
          * Adds a .table-stripped class to table element
          */
-        stripped: {default: false},
+        striped: {default: false},
 
         /**
          * Adds a .table-outline class to table element
@@ -78,7 +78,7 @@ export default {
         tableClassName () {
             let className = {table: true}
             className[`table-hover`] = this.hover !== false
-            className[`table-stripped`] = this.stripped !== false
+            className[`table-striped`] = this.striped !== false
             className[`table-outline`] = this.outline !== false
             className[`card-table`] = this.cards !== false
 
