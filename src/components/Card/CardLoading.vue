@@ -12,12 +12,12 @@
 <script>
 	import CardBody from "./CardBody.vue";
 
-    export default {
+	export default {
 		name: "card-loading",
 		components: {
 			CardBody
 		}
-    }
+	}
 </script>
 
 <style scoped>
