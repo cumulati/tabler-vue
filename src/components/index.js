@@ -16,6 +16,7 @@ import * as Site from './Site'
 import StampCard from './StampCard'
 import StatsCard from './StatsCard'
 import * as Table from './Table'
+import * as Tag from './Tag'
 
 export const components = {
     ...Alert,
@@ -35,5 +36,7 @@ export const components = {
     ...Site,
     StampCard,
     StatsCard,
-    ...Table
+    StatusIcon,
+    ...Table,
+    ...Tag
 }
