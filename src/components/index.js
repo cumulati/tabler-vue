@@ -20,6 +20,7 @@ import StampCard from './StampCard'
 import StatsCard from './StatsCard'
 import StatusIcon from './StatusIcon'
 import * as Table from './Table'
+import * as Tag from './Tag'
 
 export const components = {
     ...Alert,
@@ -43,5 +44,6 @@ export const components = {
     StampCard,
     StatsCard,
     StatusIcon,
-    ...Table
+    ...Table,
+    ...Tag
 }
